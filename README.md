@@ -1,4 +1,4 @@
-# Generate CA and signed server/client certificates
+# Generate self-signed CA and signed server/client certificates
 
 Usage:
 ```
