@@ -1,4 +1,4 @@
-# Generate CA and signed server/client certificates
+# Generate self-signed CA and signed server/client certificates
 
 Usage:
 ```
@@ -6,8 +6,8 @@ Usage:
 src/generate-new-CA.sh
 
 # Generate server cert: cert will include testserver in CN and SAN
-./generate-server.sh testserver
+src/generate-server.sh testserver
 
 # Generate client cert: cert will include testclient in CN
-./generate-client.sh testclient
+src/generate-client.sh testclient
 ```
